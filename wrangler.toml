@@ -16,11 +16,3 @@ name = "docker"
 [env.production.vars]
 MODE = "production"
 TARGET_UPSTREAM = ""
-
-[env.staging]
-name = "docker-staging"
-route = { pattern = "docker-staging.lixd.xyz", custom_domain = true }
-
-[env.staging.vars]
-MODE = "staging"
-TARGET_UPSTREAM = ""
