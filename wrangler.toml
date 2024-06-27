@@ -12,9 +12,6 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 
 [env.production]
 name = "docker"
-routes = [
-  { pattern = "docker.liuhai.workers.dev", custom_domain = false }
-]
 
 [env.production.vars]
 MODE = "production"
