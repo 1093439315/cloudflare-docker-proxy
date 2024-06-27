@@ -13,13 +13,7 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "docker"
 routes = [
-  { pattern = "docker.lixd.xyz", custom_domain = true },
-  { pattern = "quay.lixd.xyz", custom_domain = true },
-  { pattern = "gcr.lixd.xyz", custom_domain = true },
-  { pattern = "k8s-gcr.lixd.xyz", custom_domain = true },
-  { pattern = "k8s.lixd.xyz", custom_domain = true },
-  { pattern = "ghcr.lixd.xyz", custom_domain = true },
-  { pattern = "cloudsmith.lixd.xyz", custom_domain = true },
+  { pattern = "docker.liuhai.workers.dev", custom_domain = false }
 ]
 
 [env.production.vars]
